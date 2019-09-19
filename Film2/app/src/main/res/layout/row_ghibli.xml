@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:backgroundTint="@color/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/tv_ghibli"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="6dp"
+            android:textColor="@color/text"
+            android:textSize="16dp"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

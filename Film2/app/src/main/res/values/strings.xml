@@ -1,0 +1,37 @@
+﻿<resources>
+    <string name="app_name">Films</string>
+
+	<string name="action_bar_inspiration">Encuentra tu inspiración</string>
+    <string name="action_bar_add">Añadir película</string>
+
+    <string name="bar_film">PELICULAS</string>
+    <string name="bar_inspiration">INSPIRACION</string>
+    <string name="bar_add">NUEVA PELICULA</string>
+    <string name="bar_info">INFORMACION</string>
+    <string name="bar_login">LOG-IN</string>
+
+    <string name="btn_delete">BORRAR</string>
+    <string name="btn_accept">ENTRAR</string>
+    <string name="btn_add">AÑADIR</string>
+    <string name="btn_go">ENTRAR</string>
+
+    <string name="hint_title">Introduce el título de la película</string>
+    <string name="hint_description">Introduce la descripción de la película</string>
+    <string name="hint_year">Introduce el año de la película</string>
+    <string name="hint_points">Indica tu puntuación de la película (0-5)</string>
+    <string name="hint_url">Introduce la URL de la película</string>
+    <string name="hint_email">Introduce tu e-mail</string>
+    <string name="hint_password">Introduce tu contraseña</string>
+
+    <string name="userOK">Usuario correcto</string>
+    <string name="userKO">E-mail y contraseña no pueden estar vacíos</string>
+
+    <string name="web">Ir a la WEB de películas</string>
+
+    <string name="err_title">El campo Título no puede estar vacío.</string>
+    <string name="err_description">El campo Descripción no puede estar vacío.</string>
+    <string name="err_year">El campo Año no puede estar vacío.</string>
+    <string name="err_points">Este campo debe contener una puntuación del 0 al 5.</string>
+    <string name="err_url">El campo URL no puede estar vacío.</string>
+
+</resources>

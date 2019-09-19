@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="@string/bar_info"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/title"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#114c59"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_url"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/icono_title"
+            android:drawablePadding="10dp"
+            android:textColor="@color/text"
+            android:textSize="16dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/icono_description"
+            android:drawablePadding="10dp"
+            android:textColor="@color/text"
+            android:textSize="16dp"
+            android:gravity="left" />
+
+        <TextView
+            android:id="@+id/tv_year"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/icono_year"
+            android:drawablePadding="10dp"
+            android:gravity="left"
+            android:inputType="text"
+            android:textColor="@color/text"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_points"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/icono_points"
+            android:drawablePadding="10dp"
+            android:textColor="@color/text"
+            android:textSize="16dp"
+            android:gravity="left" />
+
+
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:onClick="deleteFilm"
+            android:background="@color/button"
+            android:shadowColor="#00CFCACA"
+            android:text="@string/btn_delete"
+            android:textColor="@color/text"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

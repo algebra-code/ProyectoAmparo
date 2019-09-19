@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Films</string>
+	
+	<string name="action_bar_inspiration">Find your inspiration</string>
+    <string name="action_bar_add">Add new film</string>
+
+    <string name="bar_film">FILMS</string>
+    <string name="bar_inspiration">INSPIRATION</string>
+    <string name="bar_add">NEW FILM</string>
+    <string name="bar_info">INFORMATION</string>
+    <string name="bar_login">LOG-IN</string>
+
+    <string name="btn_delete">DELETE</string>
+    <string name="btn_accept">GET IN</string>
+    <string name="btn_add">ADD</string>
+    <string name="btn_go">GET IN</string>
+
+    <string name="hint_title">Introduce the title of the film</string>
+    <string name="hint_description">Introduce the description of the film</string>
+    <string name="hint_year">Introduce the year of the film</string>
+    <string name="hint_points">Mark your score for the film (0-5)</string>
+    <string name="hint_url">Introduce the URL of the film</string>
+    <string name="hint_email">Introduce your email</string>
+    <string name="hint_password">Introduce your password</string>
+
+    <string name="userOK">User correct</string>
+    <string name="userKO">Email and password cannot be empties</string>
+
+    <string name="web">Go to the movie website</string>
+
+    <string name="err_title">The TITLE cannot be empty.</string>
+    <string name="err_description">The DESCRIPTION cannot be empty.</string>
+    <string name="err_year">The YEAR cannot be empty.</string>
+    <string name="err_points">This field need to have a score between 0 and 5.</string>
+    <string name="err_url">The URL cannot be empty.</string>
+
+</resources>
